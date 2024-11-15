@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!--En head se almacenan metadatos para poder renderizar mi página web-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,14 @@
 <body>
 
 <!--Cabecera de mi página web-->
+    <!--Header es una etiqueta semántica que indica que es una cabecera-->
     <header>
-        <h1>Café</h1>
-        <img src="Images/LOGO.png" alt="Imagen de cafetería">
+    <div style="text-align: justify;">
+        <h1 style="color: aqua;">Café</h1>
+        <img src="Images/LOGO.png" alt="Imagen de cafetería"
+        height="350px"> 
         <!--img, src=-->
+        <!--Barra de navegación-->
         <nav>
             <ul>
                 <li><a href="#Apartado 1">Apartado 1</a></li>
@@ -20,17 +25,21 @@
                 <li><a href="">Apartado 4</a></li>
             </ul>
         </nav>
+    </div>
     </header>
 
 <!--Contenido principal-->
     <main>
     <section id="Apartado 1">
-        <p>Las cafeterías son muy lindas, pueden tener muchas temáticas. <br> Por otro lado, dependiendo de la zona hay cafeterías caras y baratas.</p>
+        <p style="font-size: 50px; color: brown;">Las cafeterías son muy lindas, <b>tener muchas temáticas</b> . <br> Por otro lado, <strong>dependiendo de la zona</strong> hay <span style="color: blueviolet;">cafeterías</span> caras y baratas.</p>
     </section>
-    </main>
+</main>
+
+    <!--<b> y <strong> ponen en negritas, pero una es semántica y la otra no-->
+    
 
     <section id="Apartado 2">
-        <h2>Cafeterías recomendadas en Córdoba</h2>
+        <h2><i>Cafeterías recomendadas en Córdoba</i></h2>
         <!--Esta es una lista desordenada-->
         <li></li>
         <li></li>
@@ -38,10 +47,11 @@
         <li></li>
         <!--li*4-->
     </section>
+    <!--subrayamos con <u>-->
 
 <!--pie de página-->
     <footer>
-        <h3>Encuentra más información en:</h3>
+        <h3><u>Encuentra más información en:</u></h3>
         <!--etiqueta de enlace-->
         <a href="https://buscador.becasbenitojuarez.gob.mx/consulta/" target="_blank">Este enlace</a>
     </footer> 
